@@ -1,0 +1,78 @@
+[general]
+autostart = ["noctalia"]
+
+[appearance]
+prefer_no_csd = true
+border_width = 2
+corner_radius = 12
+
+[colors.border]
+focused   = "#e5c890"    # Highlight color for the active / focused window
+unfocused = "#cfc8bc"    # Color for inactive background windows
+outer     = "#171512"    # Optional outer border color
+
+[layout.scrolling]
+default_extent_fraction = 0.7
+
+[keybinds]
+# Apps
+"Mod+Return" = "spawn:kitty"
+"Mod+D"  = "spawn:noctalia msg panel-toggle launcher"
+"Mod+Space" = "spawn:noctalia msg panel-toggle control-center"
+"Mod+S" = "spawn:noctalia msg settings-toggle"
+"Mod+Escape" = "spawn:noctalia msg panel-toggle session"
+"Mod+C" = "spawn:noctalia msg panel-toggle clipboard"
+"Mod+V" = "spawn:code"
+
+# Windows
+"Mod+Q"       = "window-close"
+"Mod+Left"    = "window-focus-left"
+"Mod+Right"   = "window-focus-right"
+"Mod+Up"      = "window-focus-up"
+"Mod+Down"    = "window-focus-down"
+"Alt+Tab"     = "window-focus-next"
+"Mod+Shift+F" = "window-toggle-fullscreen"
+"Mod+F"       = "window-toggle-maximize"
+"Mod+Ctrl+F"  = "window-toggle-maximize-to-edges"
+
+# Workspaces
+"Mod+Ctrl+Right"  = "workspace-next"
+"Mod+Ctrl+Left"   = "workspace-previous"
+"Mod+Alt+Right"   = "window-move-right"
+"Mod+Alt+Left"    = "window-move-left"
+"Mod+Shift+Right" = "window-move-to-workspace-next"
+"Mod+Shift+Left"  = "window-move-to-workspace-previous"
+"Mod+Equal"       = "window-modify-primary-extent:+0.05"
+"Mod+Minus"       = "window-modify-primary-extent:-0.05"
+"Mod+Shift+1"     = "window-move-to-workspace:1"
+"Mod+Shift+2"     = "window-move-to-workspace:2"
+"Mod+Shift+3"     = "window-move-to-workspace:3"
+"Mod+Shift+4"     = "window-move-to-workspace:4"
+"Mod+Shift+5"     = "window-move-to-workspace:5"
+"Mod+Shift+6"     = "window-move-to-workspace:6"
+"Mod+Shift+7"     = "window-move-to-workspace:7"
+"Mod+Shift+8"     = "window-move-to-workspace:8"
+"Mod+Shift+9"     = "window-move-to-workspace:9"
+"Mod+Tab"         = "overview-toggle"
+"Mod+P"           = "window-toggle-scratchpad"
+
+# Extras
+"Mod+Shift+K" = "keyboard-layout-next"
+"Mod+H"          = "cheatsheet-toggle"
+"Mod+B" = "spawn:firefox"
+# "Mod+B" = "spawn:xdg-open http://"
+
+# Media keys via Noctalia
+"XF86AudioRaiseVolume"  = "spawn:noctalia msg volume-up"
+"XF86AudioLowerVolume"  = "spawn:noctalia msg volume-down"
+"XF86AudioMute"         = "spawn:noctalia msg volume-mute"
+"XF86MonBrightnessUp"   = "spawn:noctalia msg brightness-up"
+"XF86MonBrightnessDown" = "spawn:noctalia msg brightness-down"
+
+#screencapture
+"Mod+Shift+S" = "spawn:noctalia msg screenshot-region"
+"Mod+Ctrl+S" = "spawn:noctalia msg screenshot-fullscreen"
+
+
+[include.optional]
+files = []

@@ -1,0 +1,11 @@
+[include]
+files = [
+  "templates/",
+]
+
+#themes
+[theme]
+mode = "dark"
+
+[bar.default]
+position = "top"

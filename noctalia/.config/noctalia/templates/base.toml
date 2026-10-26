@@ -1,0 +1,38 @@
+[bar]
+order = ["default"]
+
+[bar.default]
+position = "top"
+enabled = true
+
+# Bar Margins & Wrap Settings
+margin_edge = 0
+margin_ends = 0
+concave_edge_corners = true  
+radius = 20
+radius_top_left = 0
+radius_top_right = 0
+
+# Color & Capsule Styling
+color = "#e5c890"
+shadow = true
+capsule = false
+padding = 20
+
+#widget
+widget_spacing = 8
+start  = ["workspaces"]
+center = ["battery", "sep","clock"]
+end    = ["session"]
+
+[widget.workspaces]
+occupied_color = "#8a7d63"
+empty_color = "#8a7d63" 
+show_labels = false
+
+# custom separator
+[widget.sep]
+type = "text"
+text = "|"
+color = "#8a7d63"  
+
