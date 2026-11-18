@@ -17,12 +17,12 @@ default_extent_fraction = 0.7
 [keybinds]
 # Apps
 "Mod+Return" = "spawn kitty"
-"Mod+D"  = "spawn:noctalia msg panel-toggle launcher"
-"Mod+Space" = "spawn:noctalia msg panel-toggle control-center"
-"Mod+S" = "spawn:noctalia msg settings-toggle"
-"Mod+Escape" = "spawn:noctalia msg panel-toggle session"
-"Mod+C" = "spawn:noctalia msg panel-toggle clipboard"
-"Mod+V" = "spawn:code"
+"Mod+D"  = "spawn noctalia msg panel-toggle launcher"
+"Mod+Space" = "spawn noctalia msg panel-toggle control-center"
+"Mod+S" = "spawn noctalia msg settings-toggle"
+"Mod+Escape" = "spawn noctalia msg panel-toggle session"
+"Mod+C" = "spawn noctalia msg panel-toggle clipboard"
+"Mod+V" = "spawn code"
 
 # Windows
 "Mod+Q"       = "window-close"
@@ -59,19 +59,19 @@ default_extent_fraction = 0.7
 # Extras
 "Mod+Shift+K" = "keyboard-layout-next"
 "Mod+H"          = "cheatsheet-toggle"
-"Mod+B" = "spawn:firefox"
+"Mod+B" = "spawn firefox"
 # "Mod+B" = "spawn:xdg-open http://"
 
 # Media keys via Noctalia
-"XF86AudioRaiseVolume"  = "spawn:noctalia msg volume-up"
-"XF86AudioLowerVolume"  = "spawn:noctalia msg volume-down"
-"XF86AudioMute"         = "spawn:noctalia msg volume-mute"
-"XF86MonBrightnessUp"   = "spawn:noctalia msg brightness-up"
-"XF86MonBrightnessDown" = "spawn:noctalia msg brightness-down"
+"XF86AudioRaiseVolume"  = "spawn noctalia msg volume-up"
+"XF86AudioLowerVolume"  = "spawn noctalia msg volume-down"
+"XF86AudioMute"         = "spawn noctalia msg volume-mute"
+"XF86MonBrightnessUp"   = "spawn noctalia msg brightness-up"
+"XF86MonBrightnessDown" = "spawn noctalia msg brightness-down"
 
 #screencapture
-"Mod+Shift+S" = "spawn:noctalia msg screenshot-region"
-"Mod+Ctrl+S" = "spawn:noctalia msg screenshot-fullscreen"
+"Mod+Shift+S" = "spawn noctalia msg screenshot-region"
+"Mod+Ctrl+S" = "spawn noctalia msg screenshot-fullscreen"
 
 
 [include.optional]
